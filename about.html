@@ -1,0 +1,83 @@
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+           car show room
+        </title>
+        <link rel="stylesheet"href="style.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,300;1,400;1,700&display=swap" rel="stylesheet">"
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+    </style>
+    </head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><h1><span>KRISH </span>MOTORS</h1></a>
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="model.html">model</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    
+                </ul>
+            </nav>
+            <a href="shoppingCart.html"><img src="shopping-bag.png"></a>
+            <img src="menubar.jpg"class="menubar"onclick="menutoggle()">
+         
+        </div>
+    </div></div>
+    <section class="about">
+        <h2>About Us</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac arcu eu justo consequat fermentum. 
+            Proin vel orci at ligula tincidunt facilisis. Integer euismod scelerisque bibendum.
+        </p>
+
+        <h2>Assurance and Guarantee</h2>
+        <p>
+            At our car showroom, we take pride in providing high-quality vehicles with assurance and guarantee. 
+            All our cars undergo rigorous inspections to ensure they meet the highest standards of performance 
+            and safety. Additionally, we offer a comprehensive guarantee to give you peace of mind with your 
+            purchase.
+        </p>
+
+        <h2>Our Commitment</h2>
+        <p>
+            We are committed to delivering exceptional customer service and making your car-buying experience 
+            enjoyable. If you have any questions or concerns, feel free to <a href="contact.html">contact us</a>. 
+            Your satisfaction is our priority.
+        </p>
+    </section>
+    <p class="copyright">Copyright 2023-krish motors(samyuktha)</p>
+    <script>
+        var menuitems=document.getElementById("menuitems");
+        menuitems.style.maxHeight="0px";
+        function menutoggle(){
+            if(menuitems.style.maxHeight=="0px")
+            {
+                menuitems.style.maxHeight="200px";
+            }
+            else{
+                menuitems.style.maxHeight="0px";
+            }
+        }
+     </script>
+</body></html>
